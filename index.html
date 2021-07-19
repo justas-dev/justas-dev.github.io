@@ -1,134 +1,76 @@
 <!DOCTYPE html>
-<!--
-	Indus by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap" rel="stylesheet">
+    <title>Your bot name</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<html lang="en" class="no-js">
-	<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>justas's dev</title>
-
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/et-lineicon.css" />
-        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,500italic,700' rel='stylesheet' type='text/css'>
-
-	</head>
-	<body>
-
-        <div class="animationload">
-            <div class="loader">
-                Loading...
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Tutorials</a>
+            </li>  
+        </ul>
+        <a href="https://discord.gg/fzYtdMedu9"><button class="btn btn-outline-secondary my-2 my-sm-0 btn-round btn-sm">DISCORD</button></a>
+    </div>
+</nav>
+<div class="heading text-center">
+    <h1 class="display-5 title">Hope you enjoy, what I developed!</h1>
+    <p class="subtitle">If you find any bugs feel free to report them.</p>
+    <a class="btn btn-primary btn-lg" href="https://discord.gg/fzYtdMedu9" role="button">Discord</a>
+    <br /><br /><br /><br /><br /><br />
+</div>
+<div class="features">
+    <div class="title">Plugins availabe:</div>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Smelting cobblestone gives OP loot!</h5>
+            <p class="card-text">This plugin is a really fun twist to your regular Minecraft Manhunts with your friends! To compleate the twist you need to smelt a peace of cobblestone in any kind of a furnace.</p>
+			<a class="btn btn-primary btn-lg" href="#start_link" role="button">Download</a>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="statistics">
+    <div class="cards">
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Plugins</h5>
+                <h1 style="font-weight: bold !important">1</h1>
             </div>
-        </div> 
-
-		<section id="home">
-			<div class="content">
-                <div id="large-header" class="large-header">
-                    <canvas id="demo-canvas"></canvas>
-                    <div id="countdown_dashboard" class="home-main container">
-                        <div class="row">
-                            <div class="logo">
-                                <img src="images/logo.png" alt="logo">
-                                <p>coming soon</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                                <div class="dash days_dash">
-                                    <div class="digit">6</div>
-                                    <div class="digit">9</div>
-                                    <span class="dash_title">Days</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                                <div class="dash hours_dash">
-                                    <div class="digit">6</div>
-                                    <div class="digit">9</div>
-                                    <span class="dash_title">Hours</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                                <div class="dash minutes_dash">
-                                    <div class="digit">6</div>
-                                    <div class="digit">9</div>
-                                    <span class="dash_title">Minutes</span>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 dash-glob" data-scroll-reveal="enter bottom move 25px, after 0.3s">
-                                <div class="dash seconds_dash">
-                                    <div class="digit">6</div>
-                                    <div class="digit">9</div>
-                                    <span class="dash_title">Seconds</span>
-                                </div>
-                            </div>
-                        </div> <!-- END ROW -->
-                    </div> <!-- END COUNTDOWN -->
-                </div> <!-- LARGE HEADER -->
-            </div> <!-- END CONTENT -->
-        </section>
-
-        <!-- =========================
-                 FEATURES
-        ========================== -->
-
-        <section class="features parallax" data-stellar-background-ratio="0.7" id="features">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="features-box">
-                            <div class="open-overlay"><i class="icon-lightbulb"></i></div>
-                            <h4>High Quality</h4>
-                            <p>c:</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="features-box">
-                            <div class="open-overlay"><i class="icon-ribbon"></i></div>
-                            <h4>Great Features</h4>
-                            <p>Soon.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="features-box">
-                            <div class="open-overlay"><i class="icon-circle-compass"></i></div>
-                            <h4>Customer Services</h4>
-                            <p>justas#4280</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>    
-
-
-
-        <!-- =========================
-                 FOOTER
-        ========================== -->
-
-        <footer class="footer">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-12">
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="copyright">Copyright© 2020 <a href="https://justas-dev.github.io">justas's dev</p>
-                </div>
-            </div>
-        </footer>
-            
-        <!-- JAVASCRIPTS -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.lwtCountdown-1.0.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/animated.js"></script>
-        <script src="js/main.js"></script>
-	</body>
+        </div>
+    </div>
+</div>
+<div class="start">
+    <div class="card">
+        <div class="card-body">
+            <div class="title">Found some bugs?</div>
+            <div class="subtitle">Join our Discord server and report them immediately!</div>
+            <br />
+            <a class="btn btn-primary btn-lg" href="https://discord.gg/fzYtdMedu9" role="button">Discord</a>
+        </div><br />
+    </div>
+</div>
+<div class="footer">
+    Created by <a href="https://discord.gg/fzYtdMedu9"> justas</a>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js"></script>
+</body>
 </html>
